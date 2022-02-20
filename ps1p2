@@ -1,0 +1,11 @@
+ex1 = 10
+ex2 = 12
+
+n
+
+as
+
+as = (ex1 +ex2)/2
+
+print("last name is ",n)
+print("average score is ", as)
