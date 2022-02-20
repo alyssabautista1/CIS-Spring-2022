@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alyss"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-19 11:44:31 PM"/>
+        <attribute name="created" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMTg7MTE6MDA6MDEgUE07MjgyNw=="/>
+        <attribute name="edited" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMTk7MTE6NDQ6MzEgUE07MzsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="t" type="Real" array="False" size=""/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="t" expression="a * 0.15"/>
+            <output expression="&quot;tip is &quot; &amp; t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

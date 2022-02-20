@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alyss"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-18 11:06:47 PM"/>
+        <attribute name="created" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMTg7MTE6MDE6NTAgUE07MjgzMg=="/>
+        <attribute name="edited" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMTg7MTE6MDY6NDcgUE07MTsyOTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="tax" type="Real" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="tax" expression="a * 0.07"/>
+            <assign variable="t" expression="a + tax"/>
+            <output expression="&quot;amount of item is &quot; &amp; a" newline="True"/>
+            <output expression="&quot;tax is &quot; &amp; tax" newline="True"/>
+            <output expression="&quot;total is &quot; &amp; t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

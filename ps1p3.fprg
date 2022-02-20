@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alyss"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-18 10:59:52 PM"/>
+        <attribute name="created" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMTg7MTA6NTY6MTIgUE07MjgzOQ=="/>
+        <attribute name="edited" value="YWx5c3M7REVTS1RPUC0yRTIzTTRLOzIwMjItMDItMTg7MTA6NTk6NTIgUE07MTsyOTU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="g" type="Real" array="False" size=""/>
+            <declare name="mt" type="Real" array="False" size=""/>
+            <declare name="mpg" type="Real" array="False" size=""/>
+            <input variable="g"/>
+            <input variable="mt"/>
+            <assign variable="mpg" expression="g / mt"/>
+            <output expression="&quot;miles per gallon is &quot; &amp; mpg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
