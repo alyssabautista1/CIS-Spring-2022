@@ -1,0 +1,6 @@
+g = 3
+mt = 10
+
+mpg = g/mt
+
+print("miles per gallon is ",mpg)
