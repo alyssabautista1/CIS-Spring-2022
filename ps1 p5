@@ -1,0 +1,10 @@
+a = 50
+tax
+t
+
+tax = a * 0.07
+t = a + tax
+
+print("amount of item is ", a)
+print("tax is ", tax)
+print("total is ", t)
