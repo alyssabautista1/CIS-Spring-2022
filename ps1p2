@@ -3,8 +3,6 @@ ex2 = 12
 
 n
 
-as
-
 as = (ex1 +ex2)/2
 
 print("last name is ",n)
