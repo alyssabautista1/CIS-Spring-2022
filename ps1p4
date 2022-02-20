@@ -1,0 +1,6 @@
+t
+a = 50
+
+t = a * 0.15
+
+print("tip is ", t)
