@@ -1,0 +1,12 @@
+
+n1 = 12
+n2 = 10 
+
+s = n1 + n2 
+p = n1 * n2
+d = n1 - n2
+
+print("Sum is ", s)
+print("Product is ", p)
+print("Difference is ", d)
+
